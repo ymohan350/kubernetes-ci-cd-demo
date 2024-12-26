@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: current-time-api
+  namespace: argocd
+spec:
+  source:
+    repoURL: git@github.com:Tinega-Devops/kubernetes-ci-cd-demo.git
+    targetRevision: main
+    path: manifests
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  project: default
