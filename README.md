@@ -1,7 +1,7 @@
 | |  |  
 | :--- | :--- |  
 | :bookmark: **Summary** | The article explains how to build a scalable CI/CD pipeline for Kubernetes deployments using GitHub Actions and ArgoCD, focusing on automation, efficiency, and best practices for managing containerized applications. |  
-| :link: **Original article** | [Building a Scalable CI/CD Pipeline for Kubernetes Deployments with GitHub Actions and ArgoCD](link.com) |  
+| :link: **Original article** | [Building a Scalable CI/CD Pipeline for Kubernetes Deployments with GitHub Actions and ArgoCD](https://medium.com/@oncharijohannes/building-a-scalable-ci-cd-pipeline-for-kubernetes-deployments-with-github-actions-and-argocd-10e86153494f) |  
 | :bust_in_silhouette: **Author** | Tinega Onchari |  
 | :busts_in_silhouette: **Audience** | DevOps engineers, software developers, and teams managing Kubernetes-based applications. | 
 # Building a Scalable CI/CD Pipeline for Kubernetes Deployments with GitHub Actions and ArgoCD
