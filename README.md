@@ -172,7 +172,7 @@ Using the URL `https://127.0.0.1:8080` as shown above, you should be able to acc
 **Note:** Your access URL may be different from the one mentioned above, depending on your specific setup and configuration. Make sure to use the correct URL provided for your environment.
 
 
-![The argoCD Login page|690x413](upload://ncJtxHQ3wiNnf2d1DxCTB1laoVw.jpeg)
+![The argoCD Login page|690x413](/images/Screenshot%202024-12-27%20at%2001.01.37.png)
 
 
 ### Step 3: Configure ArgoCD
@@ -199,7 +199,7 @@ The next step is to add your GitHub repository to ArgoCD. You can configure it e
 
 This is what the **Repositories** section looks like in the ArgoCD UI.
 
-![Repository Connection configuration form|672x500](upload://eZvOM3C2LyzFRbLjmhuUsTOenPr.png)
+![Repository Connection configuration form|672x500](/images/Screenshot%202024-12-27%20at%2004.20.39.png)
 
 
 If the setup is successful, you should see a green check mark next to your GitHub repository, indicating that it has been connected successfully. If there is an issue, you will see a connection failure error message, indicating that the GitHub repository failed to connect.
@@ -232,7 +232,7 @@ spec:
 
 To create your first application on the ArgoCD platform, use the following `kubectl apply` command. Before running the command, make sure to update the `repoURL` and `server` values to match your correct GitHub repository URL and the correct cluster URL.
 
-![Current-time-api application. |690x411](upload://fSJoMH8Gq3MwWw5O2z2Bm1UqGge.png)
+![Current-time-api application. |690x411](/images/Screenshot%202024-12-27%20at%2002.02.32.png)
 
 
 This command will create the application on ArgoCD. Ensure that the repository URL points to your GitHub repository, and the server URL corresponds to the Kubernetes cluster you want the application to be deployed.
@@ -275,7 +275,7 @@ spec:
 
 2. ArgoCD will automatically detect the changes and deploy the application. Here is how the application is shown:
 
-![The synced changes.|690x358](upload://cPbufK9ytBbBGQAHpO5dsZJCjJE.png)
+![The synced changes.|690x358](/images/Screenshot%202024-12-27%20at%2002.04.41.png)
 
 
 
@@ -299,4 +299,4 @@ Happy coding!
 
 
 _______________
-> :information_source: This is a #writers-room article submission. To learn more about our Writer's Room Program [check out this post.](https://community.staging.andela.com/t/the-writers-room/67?u=mc.elias)
+> :information_source: This is a #writers-room article submission. To learn more about our Writer's Room Program [check out this post.](https://community.staging.a
