@@ -296,7 +296,3 @@ spec:
 By combining GitHub Actions for CI and ArgoCD for CD, you’ve created a scalable, efficient pipeline for Kubernetes deployments. This setup enables rapid iterations while maintaining high reliability. The included Node.js REST API application demonstrates how this pipeline can be used in real-world scenarios. Explore additional optimizations like blue-green deployments or canary releases to enhance your pipeline further.
 
 Happy coding!
-
-
-_______________
-> :information_source: This is a #writers-room article submission. To learn more about our Writer's Room Program [check out this post.](https://community.staging.a
