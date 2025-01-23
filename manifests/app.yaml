@@ -10,5 +10,5 @@ spec:
     path: manifests
   destination:
     server: https://kubernetes.default.svc
-    namespace: default
-  project: default
+    namespace: argocd
+  project: argocd
